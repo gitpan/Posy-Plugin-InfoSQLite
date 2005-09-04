@@ -1,0 +1,19 @@
+---
+name: Posy-Plugin-InfoSQLite
+version: 0.01
+author:
+  - Kathryn Andersen
+abstract: Posy plugin which gives supplementary entry information.
+license: perl
+requires:
+  DBD::SQLite: 0
+  DBI: 0
+  Posy: 0.99
+  Posy::Plugin::Info: 0.05
+build_requires:
+  Test::More: 0
+provides:
+  Posy::Plugin::InfoSQLite:
+    file: lib/Posy/Plugin/InfoSQLite.pm
+    version: 0.01
+generated_by: Module::Build version 0.2611
